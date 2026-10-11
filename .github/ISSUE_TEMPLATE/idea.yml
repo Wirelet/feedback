@@ -1,0 +1,17 @@
+name: Idea
+description: Something Wirelet could do.
+labels: [idea]
+body:
+  - type: textarea
+    id: idea
+    attributes:
+      label: What would you like Wirelet to do?
+    validations:
+      required: true
+  - type: textarea
+    id: why
+    attributes:
+      label: Why would it help you?
+      description: The task you are trying to do, in a few words.
+    validations:
+      required: false

@@ -1,0 +1,44 @@
+name: Bug
+description: Something in Wirelet does not work as expected.
+labels: [bug]
+body:
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened?
+      description: What you expected, and what you saw instead. Never paste a token, a key or a private address.
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      placeholder: |
+        1. …
+        2. …
+        3. …
+    validations:
+      required: true
+  - type: textarea
+    id: diagnostics
+    attributes:
+      label: Diagnostics
+      description: Filled in by Wirelet's "Report a problem" (settings page). It holds no address, header, value or key.
+      placeholder: |
+        Wirelet diagnostics
+        extension:
+        browser:
+        os:
+        language:
+        profiles:
+        active headers:
+        site patterns:
+        installed rules:
+        plan:
+        trial days left:
+        grace days left:
+        site access:
+        recent errors:
+      render: text
+    validations:
+      required: false
