@@ -6,7 +6,7 @@ Publisher: Wirelet. Contact: wirelet.dev@gmail.com
 
 **What Wirelet collects.** Nothing. Wirelet does not collect, transmit, or store outside your device any data about you or about your browsing.
 
-**What stays on your device.** The profiles and settings you write (headers, sites, preferences) are kept in your browser's local storage, on your device only. They are not synced and not sent anywhere. Removing Wirelet removes them.
+**What stays on your device.** The profiles and settings you write (headers, sites, preferences) are kept in your browser's local storage, on your device only. So is a small record for the one-time request for a review: the installation date, up to 5 names of headers seen applied (never their values), and whether you answered; the header names are forgotten once you answer. Nothing of this is synced or sent anywhere. Removing Wirelet removes it all.
 
 **Network.** Wirelet makes no network connection of its own. The header changes you write are applied by your browser to your own requests.
 
@@ -20,7 +20,7 @@ Publisher: Wirelet. Contact: wirelet.dev@gmail.com
 
 **Ce que Wirelet collecte.** Rien. Wirelet ne collecte, ne transmet et ne stocke hors de votre appareil aucune donnée sur vous ni sur votre navigation.
 
-**Ce qui reste sur votre appareil.** Les profils et réglages que vous écrivez (en-têtes, sites, préférences) sont gardés dans le stockage local de votre navigateur, sur votre appareil seulement. Ils ne sont ni synchronisés ni envoyés. Retirer Wirelet les supprime.
+**Ce qui reste sur votre appareil.** Les profils et réglages que vous écrivez (en-têtes, sites, préférences) sont gardés dans le stockage local de votre navigateur, sur votre appareil seulement. De même pour un petit relevé destiné à la demande d’avis, faite une seule fois : la date d’installation, jusqu’à 5 noms d’en-têtes vus appliqués (jamais leurs valeurs) et si vous avez répondu ; les noms d’en-têtes sont oubliés dès que vous répondez. Rien de tout cela n’est synchronisé ni envoyé. Retirer Wirelet supprime le tout.
 
 **Réseau.** Wirelet n’établit aucune connexion réseau. Les changements d’en-têtes que vous écrivez sont appliqués par votre navigateur à vos propres requêtes.
 
