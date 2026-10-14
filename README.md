@@ -11,3 +11,9 @@ Install Wirelet: [Chrome Web Store](https://chromewebstore.google.com/detail/blj
 Issues here are public: never paste a token, a key or a private address.
 
 Privacy: [PRIVACY.md](PRIVACY.md).
+
+## Verify the package yourself
+
+1. Download `wirelet-<version>-chrome.zip` (or `-edge.zip`) from this repository's [releases](https://github.com/Wirelet/feedback/releases) and compare its SHA-256 with `SHA256SUMS.txt` (`shasum -a 256 wirelet-1.0.2-chrome.zip`).
+2. `unzip -p wirelet-1.0.2-chrome.zip manifest.json` shows its `permissions`, its `optional_host_permissions` and its `content_security_policy` (`connect-src 'none'`).
+3. `unzip -p wirelet-1.0.2-chrome.zip '*.js' | grep -c "fetch("` prints `0`: its code makes no network request.
